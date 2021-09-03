@@ -27,3 +27,5 @@ Brain dump:
   * finished project storage
 * Jest, ~ Tests (no joke ;)
 * CDK deployment pipeline
+
+link to [diagram](https://app.diagrams.net/#HAlchieus%2FTheHoneydewList%2Fmain%2FFeature%20map.drawio)
