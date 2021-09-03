@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-03T20:31:22.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="rbtN3quHvQXymeoCMDJt" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-03T20:51:42.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="ecgPa4_0T7Nw3NstOzys" version="15.0.6" type="github">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
     <mxGraphModel dx="2912" dy="1065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,18 +11,15 @@
           <mxGeometry x="-640" y="500" width="2280" height="350" as="geometry" />
         </mxCell>
         <mxCell id="dKdSaXE48SgPbhcamS2K-32" value="" style="whiteSpace=wrap;html=1;strokeColor=none;strokeWidth=1;fillColor=#f5f5f5;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-640" y="230" width="2280" height="240" as="geometry" />
+          <mxGeometry x="-640" y="230" width="2520" height="240" as="geometry" />
         </mxCell>
         <mxCell id="dKdSaXE48SgPbhcamS2K-40" value="Service" style="html=1;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.service;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="554.5" y="1020" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="dKdSaXE48SgPbhcamS2K-45" value="Service" style="html=1;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.service;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="554.5" y="930" width="150" height="50" as="geometry" />
+          <mxGeometry x="867.5" y="990" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dKdSaXE48SgPbhcamS2K-47" value="What are the &#xa;properties of a &#xa;List?" style="shape=component;align=center;fillColor=#99ffff;gradientColor=none;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="230" y="530" width="185" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dKdSaXE48SgPbhcamS2K-49" value="What re the &#xa;Properties of a &#xa;ListItem" style="shape=component;align=center;fillColor=#99ffff;gradientColor=none;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="dKdSaXE48SgPbhcamS2K-49" value="What are the &#xa;Properties of a &#xa;ListItem" style="shape=component;align=center;fillColor=#99ffff;gradientColor=none;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="440" y="530" width="185" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dKdSaXE48SgPbhcamS2K-51" value="Does remove mean &#xa;delete, or inactivate?" style="shape=component;align=center;fillColor=#99ffff;gradientColor=none;fontSize=14;" parent="1" vertex="1">
@@ -74,16 +71,19 @@
           <mxGeometry x="1450" y="312.5" width="150" height="75" as="geometry" />
         </mxCell>
         <mxCell id="UJONmov9BAed16g93MeG-14" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="252.5" y="916" width="140" height="104" as="geometry" />
+          <mxGeometry x="252.5" y="916" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="UJONmov9BAed16g93MeG-15" value="Owner: userId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-14">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="UJONmov9BAed16g93MeG-16" value="Title" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-14">
+        <mxCell id="UJONmov9BAed16g93MeG-48" value="ListId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-14">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="UJONmov9BAed16g93MeG-17" value="Created Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-14">
+        <mxCell id="UJONmov9BAed16g93MeG-16" value="Title" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-14">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-17" value="Created Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-14">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UJONmov9BAed16g93MeG-19" value="Login" style="html=1;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-420" y="312" width="150" height="75" as="geometry" />
@@ -101,21 +101,27 @@
           <mxGeometry x="-630" y="630" width="185" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UJONmov9BAed16g93MeG-24" value="User" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-402" y="916" width="132" height="130" as="geometry" />
+          <mxGeometry x="-612" y="903" width="132" height="182" as="geometry" />
         </mxCell>
-        <mxCell id="UJONmov9BAed16g93MeG-25" value="UserName" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-24">
+        <mxCell id="UJONmov9BAed16g93MeG-47" value="DisplayName" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-24">
           <mxGeometry y="26" width="132" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="UJONmov9BAed16g93MeG-26" value="Password" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-24">
+        <mxCell id="UJONmov9BAed16g93MeG-25" value="UserName" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-24">
           <mxGeometry y="52" width="132" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-26" value="Password" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-24">
+          <mxGeometry y="78" width="132" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="UJONmov9BAed16g93MeG-27" value="EmailAddress" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-24">
-          <mxGeometry y="78" width="132" height="52" as="geometry" />
+          <mxGeometry y="104" width="132" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="UJONmov9BAed16g93MeG-28" value="UserId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="-402" y="1020" width="60" height="26" as="geometry" />
+        <mxCell id="UJONmov9BAed16g93MeG-28" value="UserId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-24">
+          <mxGeometry y="130" width="132" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="UJONmov9BAed16g93MeG-29" value="Get User" style="shape=component;align=center;fillColor=#99ffff;gradientColor=none;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="UJONmov9BAed16g93MeG-45" value="UserRole" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-24">
+          <mxGeometry y="156" width="132" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-29" value="Get User By &#xa;User Name" style="shape=component;align=center;fillColor=#99ffff;gradientColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-415" y="530" width="185" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UJONmov9BAed16g93MeG-30" value="Validate User Password" style="shape=component;align=center;fillColor=#99ffff;gradientColor=none;fontSize=14;" vertex="1" parent="1">
@@ -124,7 +130,7 @@
         <mxCell id="UJONmov9BAed16g93MeG-31" value="Create Session" style="shape=component;align=center;fillColor=#99ffff;gradientColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-415" y="710" width="185" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="UJONmov9BAed16g93MeG-32" value="Send Link to Email" style="shape=component;align=center;fillColor=#99ffff;gradientColor=none;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="UJONmov9BAed16g93MeG-32" value="Send Link to Email &#xa;With session token" style="shape=component;align=center;fillColor=#99ffff;gradientColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-212.5" y="620" width="185" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UJONmov9BAed16g93MeG-33" value="Set new password" style="html=1;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;fontSize=14;" vertex="1" parent="1">
@@ -139,11 +145,59 @@
         <mxCell id="UJONmov9BAed16g93MeG-36" value="User Management" style="swimlane;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="-670" y="290" width="880" height="880" as="geometry" />
         </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-41" value="SessionToken" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="UJONmov9BAed16g93MeG-36">
+          <mxGeometry x="250" y="613" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-42" value="UserId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-41">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-43" value="SessionId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-41">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-44" value="ExpirationDate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-41">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="UJONmov9BAed16g93MeG-37" value="How many lists should &#xa;users be allowed?" style="shape=component;align=center;fillColor=#99ffff;gradientColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="230" y="620" width="185" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UJONmov9BAed16g93MeG-39" value="List Management" style="swimlane;horizontal=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="290" width="1420" height="880" as="geometry" />
+          <mxGeometry x="210" y="290" width="1670" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="dKdSaXE48SgPbhcamS2K-45" value="Service" style="html=1;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.service;fontSize=14;" parent="UJONmov9BAed16g93MeG-39" vertex="1">
+          <mxGeometry x="650" y="620" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-49" value="List Item" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="UJONmov9BAed16g93MeG-39">
+          <mxGeometry x="320" y="626" width="140" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-50" value="ParentListId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-49">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-51" value="Title" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-49">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-52" value="Description" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-49">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-53" value="CreatedUTC" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-49">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-54" value="CompletedUTC" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-49">
+          <mxGeometry y="130" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-55" value="Bounty" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-49">
+          <mxGeometry y="156" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-56" value="Assigned Doer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-49">
+          <mxGeometry y="182" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-57" value="Pictures" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UJONmov9BAed16g93MeG-49">
+          <mxGeometry y="208" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-40" value="Validate Session Token" style="shape=component;align=center;fillColor=#99ffff;gradientColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry y="720" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UJONmov9BAed16g93MeG-46" value="Share a List &lt;br&gt;with a Task Doer" style="html=1;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="312" width="150" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
